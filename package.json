@@ -1,0 +1,24 @@
+{
+  "name": "learn-sass",
+  "version": "1.0.0",
+  "description": "I've been writing css and sass for many years, but never learned sass completely, which made me always need to look up information when dealing with some complex sass issue, resulting in inefficiency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ma1022/learn-sass.git"
+  },
+  "author": "Ning Ma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ma1022/learn-sass/issues"
+  },
+  "homepage": "https://github.com/ma1022/learn-sass#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.56.1"
+  }
+}
