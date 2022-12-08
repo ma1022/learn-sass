@@ -5,11 +5,11 @@ const sass = require("gulp-sass")(require("sass"));
 // EXCEPT scss files that the files name starts with _
 
 function buildStyles() {
-  return src("*.scss").pipe(sass.sync()).pipe(dest("css"));
+  return src("thedays-ds/**/*.scss").pipe(sass.sync()).pipe(dest("css"));
 }
 
 function watchTask() {
-  watch(["*.scss"], buildStyles);
+  watch(["thedays-ds/**/*.scss"], buildStyles);
 }
 
 exports.buildStyles = buildStyles;
