@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
 }
 
 ul {
@@ -27,4 +27,58 @@ hr {
 
 img {
   max-width: 100%;
+}
+
+// variables
+
+// theme colors
+$primary: #326dee;
+$secondary: #1ac888;
+$error: #d32752;
+$info: #f6c31c;
+
+// spacing
+$base-spacing: 0.75rem;
+$base-margin: 0.75rem;
+$base-padding: 0.75rem;
+
+//borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+h1 {
+  color: $primary;
+  margin-bottom: $base-margin;
+}
+
+a {
+  color: $secondary;
+}
+
+button {
+  color: wheat;
+  border: 0;
+  background: $primary;
+  border-radius: $base-border-radius;
+  padding: $base-padding;
+}
+
+.error {
+  color: $error;
+  border-color: $error;
+  border-style: solid;
+  padding: $base-padding;
+  margin: $base-margin;
+  border-radius: $base-border-radius;
+  border-width: $base-border-thickness;
+}
+
+.notification {
+  color: $info;
+  border-color: $secondary;
+  border-style: solid;
+  padding: $base-padding;
+  margin: $base-margin;
+  border-radius: $base-border-radius;
+  border-width: $base-border-thickness;
 }
