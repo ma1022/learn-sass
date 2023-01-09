@@ -21,18 +21,18 @@ $colors: (
   "white": white,
 );
 
-@debug map-get($colors, "green"); // #19e635
-@debug map-has-key($colors, "hello"); // false
-@debug map-remove(
-  $colors,
-  "primary"
-); // return the rest of the colors in $colors map
-@debug map-merge(
-  $colors,
-  (
-    "pink": #ffc0cb,
-  )
-);
+// @debug map-get($colors, "green"); // #19e635
+// @debug map-has-key($colors, "hello"); // false
+// @debug map-remove(
+//   $colors,
+//   "primary"
+// ); // return the rest of the colors in $colors map
+// @debug map-merge(
+//   $colors,
+//   (
+//     "pink": #ffc0cb,
+//   )
+// );
 
 .test-btn {
   background-color: map-get($colors, "purple");
